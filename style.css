@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: 1.1em;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: -5px;
+}
+a {
+  /* color: #74787d; */
+  color: rgb(68, 68, 70);
+}
+a:link {
+  /* color: #74787d; */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+  margin: 15px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+li img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+li img:hover {
+  opacity: 1;
+}
+.signIn {
+  background-color: #4285f4;
+  border-radius: 2px;
+  padding: 6px 10px;
+  align-self: center;
+}
+.signIn:hover {
+  box-shadow: 0 0 3px #757474;
+}
+.signIn a {
+  color: white;
+  font-weight: 500;
+}
+.signIn a:hover {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10%;
+  align-items: center;
+}
+.container img {
+  width: 45%;
+  margin-bottom: 30px;
+}
+.searchBox {
+  width: 582px;
+  display: flex;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 44px;
+  margin: 0 auto;
+}
+.searchBox:hover {
+  box-shadow: 0 0 10px gray;
+}
+.searchBox svg {
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  fill: #9aa0a6;
+}
+.searchBox input {
+  border: none;
+  width: 90%;
+  outline: none;
+}
+.searchBox img {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: none;
+  padding: 12px 16px;
+  font-size: 1em;
+  margin-right: 15px;
+  color: #74787d;
+  border-radius: 6px;
+  outline: none;
+}
+button:hover {
+  border: 0.5px solid #74787d;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  line-height: 40px;
+  border-top: 1px solid #ccced3;
+  justify-content: space-between;
+}
+.business,
+.privacy {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-between; */
+}
+footer a {
+  margin: 8px 25px;
+}
